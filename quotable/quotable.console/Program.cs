@@ -7,9 +7,16 @@ namespace quotable.console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             SimpleRandomQuoteProvider test = new SimpleRandomQuoteProvider();
-            test.returnQ(10);
+            var amount = new int();
+            if(int.TryParse(Console.ReadLine(), out amount)){
+                Console.WriteLine("This is getting called");
+                test.returnQ(amount);
+            }
+            else
+            {
+                Console.WriteLine("Please enter a valid number/integer");
+            }
             Console.ReadKey();
         }
     }
