@@ -3,17 +3,22 @@ using System.Collections.Generic;
 
 namespace quotable.core{
     /// <summary>
-    /// Class that implements interface, RandomQuoteProvider.
+    /// Can accept a list of quote from a file. A implementation of RandomQuoteProvider.
     /// </summary>
-    public class SimpleRandomQuoteProvider : RandomQuoteProvider{
+    public class DefaultRandomQuoteProvider : RandomQuoteProvider{
+        string[] quotes; //list of available quotes.
+        //constructor that takes in an array of strings to populate avaiable quotes (quotes)
+        public DefaultRandomQuoteProvider(string[] quotes){
+            this.quotes = quotes;
+        }
         /// <summary>
-        /// Takes in numOfQuotes and shoots back as many strings as equats to numOfQuotes value.
-        /// If it goes over the length of available quotes then it returns all quotes.
+        /// Returns list of quotes based on numOfQuotes requested by user.
         /// </summary>
         /// <param name="numOfQuotes"></param>
         /// <returns></returns>
         public IEnumerable<string> returnQ (long numOfQuotes){
-            var quoteArr = new string[]{"Quote1", "Quote2", "Quote3", "TwoDollah"};
+            //var quoteArr = this.quotes;
+            var quoteArr = quotes;
             if(numOfQuotes <= quoteArr.Length)
             {
                 var requestArr = new string[numOfQuotes];
