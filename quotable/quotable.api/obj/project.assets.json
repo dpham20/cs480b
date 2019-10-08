@@ -4333,6 +4333,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "quotable.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/quotable.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quotable.core.dll": {}
+        }
       }
     }
   },
@@ -11787,33 +11797,39 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "quotable.core/1.0.0": {
+      "type": "project",
+      "path": "../quotable.core/quotable.core.csproj",
+      "msbuildProject": "../quotable.core/quotable.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "quotable.core >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danny\\.nuget\\packages\\": {},
+    "C:\\Users\\dpham20\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danny\\Source\\Repos\\cs480b\\quotable\\quotable.api\\quotable.api.csproj",
+      "projectUniqueName": "H:\\cs480b\\quotable\\quotable.api\\quotable.api.csproj",
       "projectName": "quotable.api",
-      "projectPath": "C:\\Users\\Danny\\Source\\Repos\\cs480b\\quotable\\quotable.api\\quotable.api.csproj",
-      "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danny\\Source\\Repos\\cs480b\\quotable\\quotable.api\\obj\\",
+      "projectPath": "H:\\cs480b\\quotable\\quotable.api\\quotable.api.csproj",
+      "packagesPath": "C:\\Users\\dpham20\\.nuget\\packages\\",
+      "outputPath": "H:\\cs480b\\quotable\\quotable.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dpham20\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11825,7 +11841,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {
+              "projectPath": "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,17 @@
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.deps.json
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.runtimeconfig.json
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.runtimeconfig.dev.json
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.dll
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.dll
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.core.dll
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.pdb
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.core.pdb
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csprojAssemblyReference.cache
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csproj.CoreCompileInputs.cache
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.AssemblyInfoInputs.cache
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.AssemblyInfo.cs
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csproj.CopyComplete

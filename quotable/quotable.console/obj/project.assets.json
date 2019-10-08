@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danny\\.nuget\\packages\\": {},
+    "C:\\Users\\dpham20\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.console\\quotable.console.csproj",
+      "projectUniqueName": "H:\\cs480b\\quotable\\quotable.console\\quotable.console.csproj",
       "projectName": "quotable.console",
-      "projectPath": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.console\\quotable.console.csproj",
-      "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.console\\obj\\",
+      "projectPath": "H:\\cs480b\\quotable\\quotable.console\\quotable.console.csproj",
+      "packagesPath": "C:\\Users\\dpham20\\.nuget\\packages\\",
+      "outputPath": "H:\\cs480b\\quotable\\quotable.console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dpham20\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {
-              "projectPath": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\quotable.core.csproj"
+            "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {
+              "projectPath": "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj"
             }
           }
         }

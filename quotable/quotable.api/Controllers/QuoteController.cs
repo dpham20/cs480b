@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using quotable.core;
+using quotable.api.Controllers;
+using quotable.api.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,6 +16,13 @@ namespace quotable.api.Controllers
     [ApiController]
     public class QuoteController : Controller
     {
+        private RandomQuoteProvider Provider { get; }
+
+        public QuoteController(RandomQuoteProvider provider)
+        {
+            Provider = provider;
+        }
+
         // GET: /Quote/
         public IActionResult Index()
         {
@@ -37,9 +47,13 @@ namespace quotable.api.Controllers
         /// <returns></returns>
         // GET: /Quote/5
         [HttpGet("{id}")]
-        public ActionResult<IEnumerable> GetQuoteById(int id)
+        public ActionResult<QuoteData> GetQuoteById(int id)
         {
-            return "hi";
+            var data = new QuoteData();
+            data.quote = Provider.returnQ(id);
+            data.Author = "Dan";
+            data.Id = id.ToString();
+            return data;
         }
 
         /// <summary>
@@ -48,9 +62,30 @@ namespace quotable.api.Controllers
         /// <returns></returns>
         [Route("GetAllQuotes")]
         [HttpGet]
-        public ActionResult<IEnumerable> GetAllQuotes()
+        public ActionResult<QuoteData> GetAllQuotes()
         {
-            return "all quotes";
+            var data = new QuoteData();
+            data.quote = Provider.returnQ(100);
+            data.Author = "Dan";
+            data.Id = "ID";
+            return data;
+        }
+
+        /// <summary>
+        ///Returns a random quote from 1-4 since my default array only has four quotes.
+        /// </summary>
+        /// <returns></returns>
+        [Route("GetRandomQuote")]
+        [HttpGet]
+        public ActionResult<QuoteData> GetRandomQuote()
+        {
+            var data = new QuoteData();
+            Random rnd = new Random();
+            var id = rnd.Next(1, 4);
+            data.quote = Provider.returnQ(id);
+            data.Author = "Dan";
+            data.Id = id.ToString();
+            return data;
         }
     }
 }

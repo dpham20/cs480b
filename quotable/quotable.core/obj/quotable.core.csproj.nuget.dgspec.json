@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {}
+    "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {
+    "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\quotable.core.csproj",
+        "projectUniqueName": "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj",
         "projectName": "quotable.core",
-        "projectPath": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\quotable.core.csproj",
-        "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danny\\source\\repos\\cs480b\\quotable\\quotable.core\\obj\\",
+        "projectPath": "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj",
+        "packagesPath": "C:\\Users\\dpham20\\.nuget\\packages\\",
+        "outputPath": "H:\\cs480b\\quotable\\quotable.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dpham20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
