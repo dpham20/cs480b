@@ -1,0 +1,14 @@
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.api.deps.json
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.api.runtimeconfig.json
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.api.runtimeconfig.dev.json
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.api.dll
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.api.pdb
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.csprojAssemblyReference.cache
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.csproj.CoreCompileInputs.cache
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.RazorAssemblyInfo.cache
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.RazorAssemblyInfo.cs
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.AssemblyInfoInputs.cache
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.AssemblyInfo.cs
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.RazorTargetAssemblyInfo.cache
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.dll
+C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.pdb
