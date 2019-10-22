@@ -12,18 +12,28 @@ using quotable.api.Models;
 
 namespace quotable.api.Controllers
 {
+    /// <summary>
+    /// Controller class to handle resources for Quote
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class QuoteController : Controller
     {
         private RandomQuoteProvider Provider { get; }
-
+        /// <summary>
+        /// Sets a RandomQuoteProvider object "Provider"
+        /// </summary>
+        /// <param name="provider"></param>
         public QuoteController(RandomQuoteProvider provider)
         {
             Provider = provider;
         }
 
         // GET: /Quote/
+        /// <summary>
+        /// Returns the View for the API project.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();

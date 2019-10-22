@@ -7,7 +7,7 @@ namespace quotable.core{
     /// </summary>
     public class DefaultRandomQuoteProvider : RandomQuoteProvider{
         Quote[] quotes; //list of available quotes.
-        //constructor that takes in an array of strings to populate avaiable quotes (quotes)
+        ///constructor that takes in an array of strings to populate avaiable quotes (quotes)
         public DefaultRandomQuoteProvider(Quote[] quotes){
             this.quotes = quotes;
         }
@@ -39,7 +39,11 @@ namespace quotable.core{
             }
             return quoteArr;
         }
-
+        /// <summary>
+        /// DefaultRandomQuoteProvider does not return anything with this method, yet. Not needed in any assignments.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public Quote returnQuoteById(int id)
         {
             throw new NotImplementedException();

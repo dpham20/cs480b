@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>quotable.console</name>
+    </assembly>
+    <members>
+        <member name="T:quotable.console.Program">
+            <summary>
+            Runs the SimpleRandomQuoteProvider object in the console application.
+            Takes in a user input, checks to see if it can be parsed as an integer,
+            and if so calls returnQ which returns an array of strings.
+            </summary>
+        </member>
+        <member name="M:quotable.console.Program.Main(System.String[])">
+            <summary>
+            Testing the SimpleRandomQuoteProvider in a console app.
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>

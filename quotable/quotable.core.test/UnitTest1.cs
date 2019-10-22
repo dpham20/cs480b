@@ -5,8 +5,14 @@ using System.Linq;
 
 namespace Tests
 {
+    /// <summary>
+    /// Test class for testing quotable.core functionality from its interface classes.
+    /// </summary>
     public class Tests
     {
+        /// <summary>
+        /// Not in use.
+        /// </summary>
         [SetUp]
         public void Setup()
         {

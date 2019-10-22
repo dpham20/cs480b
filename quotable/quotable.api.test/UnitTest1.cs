@@ -4,8 +4,14 @@ using quotable.core;
 
 namespace Tests
 {
+    /// <summary>
+    /// Testing class to test api functionality for resource url.
+    /// </summary>
     public class Tests
     {
+        /// <summary>
+        /// Not in use.
+        /// </summary>
         [SetUp]
         public void Setup()
         {
