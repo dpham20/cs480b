@@ -15,3 +15,6 @@ H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.c
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.AssemblyInfoInputs.cache
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.AssemblyInfo.cs
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csproj.CopyComplete
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.pdb
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.dll
+H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.pdb

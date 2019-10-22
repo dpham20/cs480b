@@ -30,13 +30,12 @@ namespace quotable.api.Controllers
         /// <returns></returns>
         [Route("GetRandomQuote")]
         [HttpGet]
-        public ActionResult<QuoteData> GetRandomQuote()
+        public ActionResult<Quote> GetRandomQuote()
         {
-            var data = new QuoteData();
+            var data = new Quote("", "", "");
             Random rnd = new Random();
-            data.quote = Provider.returnQ(rnd.Next(1, 4));
-            data.Author = "me";
-            data.Id = "1";
+            var id = rnd.Next(0, 4);
+            data = Provider.returnQuoteById(id);
             return data;
         }
     }

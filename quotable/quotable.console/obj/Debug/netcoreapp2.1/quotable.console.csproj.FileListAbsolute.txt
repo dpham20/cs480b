@@ -26,3 +26,17 @@ C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.console\obj\Debug\netcoreap
 C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csproj.CopyComplete
 C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.dll
 C:\Users\Danny\Source\Repos\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.pdb
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.deps.json
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.runtimeconfig.json
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.runtimeconfig.dev.json
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.dll
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.pdb
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.core.dll
+H:\cs480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.core.pdb
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csprojAssemblyReference.cache
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csproj.CoreCompileInputs.cache
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.AssemblyInfoInputs.cache
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.AssemblyInfo.cs
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csproj.CopyComplete
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.dll
+H:\cs480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.pdb

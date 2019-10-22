@@ -12,6 +12,12 @@ namespace quotable.core{
         /// </summary>
         /// <param name="numOfQuotes"></param>
         /// <returns></returns>
-        IEnumerable<string> returnQ (long numOfQuotes);
+        IEnumerable<Quote> returnQ (long numOfQuotes);
+        /// <summary>
+        /// Takes in a ID then returns a quote object based on that Id.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Quote returnQuoteById(int id);
     } 
 }

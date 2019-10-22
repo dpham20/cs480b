@@ -36,23 +36,21 @@ namespace quotable.api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "/Quote/id for specific quote.", "/Quote/GetAll for all quotes." };
+            return new string[] { "/Quote/(number) for specific quote.", "/Quote/GetAll for all quotes." };
         }
 
         /// <summary>
         /// Returns a quote based on a parameter based to it.
-        /// api/quotes/5 for example.
+        /// api/quotes/0 for example.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         // GET: /Quote/5
         [HttpGet("{id}")]
-        public ActionResult<QuoteData> GetQuoteById(int id)
+        public ActionResult<Quote> GetQuoteById(int id)
         {
-            var data = new QuoteData();
-            data.quote = Provider.returnQ(id);
-            data.Author = "Dan";
-            data.Id = id.ToString();
+            var data = new Quote("","","");
+            data = Provider.returnQuoteById(id);
             return data;
         }
 
@@ -62,13 +60,10 @@ namespace quotable.api.Controllers
         /// <returns></returns>
         [Route("GetAllQuotes")]
         [HttpGet]
-        public ActionResult<QuoteData> GetAllQuotes()
+        public ActionResult<Quote[]> GetAllQuotes()
         {
-            var data = new QuoteData();
-            data.quote = Provider.returnQ(100);
-            data.Author = "Dan";
-            data.Id = "ID";
-            return data;
+           IEnumerable<Quote> data =  Provider.returnQ(100);
+           return data.Cast<Quote>().ToArray();
         }
 
         /// <summary>
@@ -77,14 +72,12 @@ namespace quotable.api.Controllers
         /// <returns></returns>
         [Route("GetRandomQuote")]
         [HttpGet]
-        public ActionResult<QuoteData> GetRandomQuote()
+        public ActionResult<Quote> GetRandomQuote()
         {
-            var data = new QuoteData();
+            var data = new Quote("", "", "");
             Random rnd = new Random();
-            var id = rnd.Next(1, 4);
-            data.quote = Provider.returnQ(id);
-            data.Author = "Dan";
-            data.Id = id.ToString();
+            var id = rnd.Next(0, 4);
+            data = Provider.returnQuoteById(id);
             return data;
         }
     }

@@ -1645,6 +1645,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "quotable.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/quotable.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quotable.core.dll": {}
+        }
       }
     }
   },
@@ -5743,6 +5753,11 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "quotable.core/1.0.0": {
+      "type": "project",
+      "path": "../quotable.core/quotable.core.csproj",
+      "msbuildProject": "../quotable.core/quotable.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5750,7 +5765,8 @@
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "NUnit3TestAdapter >= 3.10.0",
-      "nunit >= 3.10.1"
+      "nunit >= 3.10.1",
+      "quotable.core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5782,7 +5798,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj": {
+              "projectPath": "H:\\cs480b\\quotable\\quotable.core\\quotable.core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
