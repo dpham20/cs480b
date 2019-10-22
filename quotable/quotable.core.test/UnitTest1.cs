@@ -54,5 +54,17 @@ namespace Tests
             Assert.That(actual[0].quote, Is.EqualTo(quoteArr[0].quote));
             Assert.That(actual[1].quote, Is.EqualTo(quoteArr[1].quote));
         }
+        /// <summary>
+        /// Testing if getQuoteById returns the correct Quote object.
+        /// </summary>
+        [Test]
+        public void test_simpleRandomQuoteProvider_getQuoteById()
+        {
+            RandomQuoteProvider Provider = new SimpleRandomQuoteProvider();
+            var actual = Provider.returnQuoteById(0);
+            Assert.That(actual.author, Is.EqualTo("Marilyn Monroe"));
+            Assert.That(actual.id, Is.EqualTo("0"));
+            Assert.That(actual.quote, Is.EqualTo("I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best."));
+        }
     } 
 }
