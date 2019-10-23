@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>quotable.core.test</name>
+    </assembly>
+    <members>
+        <member name="T:Tests.Tests">
+            <summary>
+            Test class for testing quotable.core functionality from its interface classes.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Setup">
+            <summary>
+            Not in use.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.test_simpleRandomQuoteProvider_returnQ_Null">
+            <summary>
+            Test to see if simpleRandomQuoteProvider's returnQ returns something.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.test_defaultRandomQuoteProvider_returnQ_Null">
+            <summary>
+            Test to see if DefaultQuoteProvider;s returnQ returns something.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.test_simpleRandomQuoteProvider_returnQ">
+            <summary>
+            Test to see if simpleRandomQuoteProvider's returnQ return is accurate.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.test_simpleRandomQuoteProvider_getQuoteById">
+            <summary>
+            Testing if getQuoteById returns the correct Quote object.
+            </summary>
+        </member>
+    </members>
+</doc>

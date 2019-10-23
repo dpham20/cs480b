@@ -16,3 +16,4 @@ H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test
 H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.dll
 H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.pdb
 H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.csproj.CopyComplete
+H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.test.xml

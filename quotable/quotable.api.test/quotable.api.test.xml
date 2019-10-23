@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>quotable.api.test</name>
+    </assembly>
+    <members>
+        <member name="T:Tests.Tests">
+            <summary>
+            Testing class to test api functionality for resource url.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Setup">
+            <summary>
+            Not in use.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Testing_Get_By_Id">
+            <summary>
+            Testing if quote of JSON body is equal to this string when using getById
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Testing_Get_By_Id_Not_Null">
+            <summary>
+            Testing if quote of JSON body is not null for getById
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Testing_Get_All_Length">
+            <summary>
+            Testing if length of getAll matches Acutal length of 4.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Testing_Get_All">
+            <summary>
+            Testing if length of getAll matches quoteArr.
+            </summary>
+        </member>
+        <member name="M:Tests.Tests.Test_Get_Random">
+            <summary>
+            Making sure only one quote is returned from getRandomQuote.
+            </summary>
+        </member>
+    </members>
+</doc>

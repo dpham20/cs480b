@@ -18,3 +18,4 @@ H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.c
 H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.pdb
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.dll
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.pdb
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.xml

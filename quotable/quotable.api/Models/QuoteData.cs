@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace quotable.api.Models
 {
     /// <summary>
-    /// A model that has a IEnumerable<Quote> attribute that takes in a collection of quotes from the .core project.
+    /// Model that is not used since I created a model class in my .Core proj.
     /// </summary>
     public class QuoteData
     {
