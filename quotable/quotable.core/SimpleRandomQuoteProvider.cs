@@ -6,6 +6,9 @@ namespace quotable.core{
     /// Class that implements interface, RandomQuoteProvider.
     /// </summary>
     public class SimpleRandomQuoteProvider : RandomQuoteProvider{
+        /// <summary>
+        /// A hardcoded array of Quote objects.
+        /// </summary>
         public Quote[] quoteArr = new Quote[]{
                 new Quote("0", "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.", "Marilyn Monroe"),
                 new Quote("1", "Very Cool, Kanye", "Trump"),

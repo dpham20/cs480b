@@ -10,15 +10,24 @@ using quotable.api.Models;
 
 namespace quotable.api.Controllers
 {
+    /// <summary>
+    /// Controller for sending back a random quote.
+    /// </summary>
     public class RandomController : Controller
     {
         private RandomQuoteProvider Provider;
-        
+        /// <summary>
+        /// Constructor takes in a provider that calls upon a created backend method.
+        /// </summary>
+        /// <param name="provider"></param>
         public RandomController(DefaultRandomQuoteProvider provider)
         {
             Provider = provider;
         }
-        // GET: /<controller>/
+        /// <summary>
+        /// Default request.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();

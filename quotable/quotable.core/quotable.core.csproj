@@ -10,4 +10,8 @@
     <DocumentationFile>H:\cs480b\quotable\quotable.core\quotable.core.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.11" />
+  </ItemGroup>
+
 </Project>

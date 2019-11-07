@@ -4,6 +4,11 @@
         <name>quotable.core</name>
     </assembly>
     <members>
+        <member name="T:quotable.core.Class1">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:quotable.core.DefaultRandomQuoteProvider">
             <summary>
             Can accept a list of quote from a file. A implementation of RandomQuoteProvider.

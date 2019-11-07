@@ -11,7 +11,6 @@ H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.core.dll
 H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.pdb
 H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.core.pdb
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csprojAssemblyReference.cache
-H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csproj.CoreCompileInputs.cache
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.AssemblyInfoInputs.cache
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.AssemblyInfo.cs
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.csproj.CopyComplete
@@ -19,3 +18,7 @@ H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.p
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.dll
 H:\cs480b\quotable\quotable.api.test\obj\Debug\netcoreapp2.1\quotable.api.test.pdb
 H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.api.test.xml
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\appsettings.Development.json
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\appsettings.json
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+H:\cs480b\quotable\quotable.api.test\bin\Debug\netcoreapp2.1\quotable.core.xml

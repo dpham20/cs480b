@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>quotable.api</name>
+    </assembly>
+    <members>
+        <member name="T:quotable.api.Controllers.QuoteController">
+            <summary>
+            Controller class to handle resources for Quote
+            </summary>
+        </member>
+        <member name="M:quotable.api.Controllers.QuoteController.#ctor(quotable.core.RandomQuoteProvider)">
+            <summary>
+            Sets a RandomQuoteProvider object "Provider"
+            </summary>
+            <param name="provider"></param>
+        </member>
+        <member name="M:quotable.api.Controllers.QuoteController.Index">
+            <summary>
+            Returns the View for the API project.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:quotable.api.Controllers.QuoteController.Get">
+            <summary>
+            Default resource URL that reutrns an array of other resource links.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:quotable.api.Controllers.QuoteController.GetQuoteById(System.Int32)">
+            <summary>
+            Returns a quote based on a parameter based to it.
+            api/quotes/0 for example.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:quotable.api.Controllers.QuoteController.GetAllQuotes">
+             <summary>
+            Returns all quotes available. 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:quotable.api.Controllers.QuoteController.GetRandomQuote">
+             <summary>
+            Returns a random quote from 1-4 since my default array only has four quotes.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:quotable.api.Controllers.RandomController.GetRandomQuote">
+             <summary>
+            Returns a random quote from 1-4 since my default array only has four quotes.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:quotable.api.Models.QuoteData">
+            <summary>
+            Model that is not used since I created a model class in my .Core proj.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -8,7 +8,6 @@ H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.test
 H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.test.dll
 H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.test.pdb
 H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.csprojAssemblyReference.cache
-H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.csproj.CoreCompileInputs.cache
 H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.AssemblyInfoInputs.cache
 H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.AssemblyInfo.cs
 H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.dll
@@ -17,3 +16,4 @@ H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.dll
 H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.pdb
 H:\cs480b\quotable\quotable.core.test\obj\Debug\netcoreapp2.1\quotable.core.test.csproj.CopyComplete
 H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.test.xml
+H:\cs480b\quotable\quotable.core.test\bin\Debug\netcoreapp2.1\quotable.core.xml

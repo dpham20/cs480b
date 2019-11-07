@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>quotable.core</name>
+    </assembly>
+    <members>
+        <member name="T:quotable.core.DefaultRandomQuoteProvider">
+            <summary>
+            Can accept a list of quote from a file. A implementation of RandomQuoteProvider.
+            </summary>
+        </member>
+        <member name="M:quotable.core.DefaultRandomQuoteProvider.#ctor(Quote[])">
+            constructor that takes in an array of strings to populate avaiable quotes (quotes)
+        </member>
+        <member name="M:quotable.core.DefaultRandomQuoteProvider.returnQ(System.Int64)">
+            <summary>
+            Returns list of quotes based on numOfQuotes requested by user.
+            </summary>
+            <param name="numOfQuotes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:quotable.core.DefaultRandomQuoteProvider.returnQuoteById(System.Int32)">
+            <summary>
+            DefaultRandomQuoteProvider does not return anything with this method, yet. Not needed in any assignments.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:quotable.core.RandomQuoteProvider">
+            <summary>
+            Interface used to return quotes.
+            </summary>
+        </member>
+        <member name="M:quotable.core.RandomQuoteProvider.returnQ(System.Int64)">
+            <summary>
+            Takes in a long value representing how many quotes to return
+            Returns quotes based on numOfQuotes.
+            </summary>
+            <param name="numOfQuotes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:quotable.core.RandomQuoteProvider.returnQuoteById(System.Int32)">
+            <summary>
+            Takes in a ID then returns a quote object based on that Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:quotable.core.SimpleRandomQuoteProvider">
+            <summary>
+            Class that implements interface, RandomQuoteProvider.
+            </summary>
+        </member>
+        <member name="M:quotable.core.SimpleRandomQuoteProvider.returnQ(System.Int64)">
+            <summary>
+            Takes in numOfQuotes and shoots back as many strings as equats to numOfQuotes value.
+            If it goes over the length of available quotes then it returns all quotes.
+            </summary>
+            <param name="numOfQuotes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:quotable.core.SimpleRandomQuoteProvider.returnQuoteById(System.Int32)">
+            <summary>
+            Returns the Quote object that has the same id as the one the parameter id.
+            If the supplied id does not appear in the array then it will retun a NULL.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Quote">
+            <summary>
+            Model object for a Quote object.
+            </summary>
+        </member>
+        <member name="M:Quote.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Creates a Quote object setting parameters: id, string, and author.
+            </summary>
+            <param name="id"></param>
+            <param name="quote"></param>
+            <param name="author"></param>
+        </member>
+        <member name="P:Quote.id">
+            <summary>
+            id represents a string id of a Quote object.
+            </summary>
+        </member>
+        <member name="P:Quote.quote">
+            <summary>
+            quote holds the string quote of an author for the Quote object.
+            </summary>
+        </member>
+        <member name="P:Quote.author">
+            <summary>
+            String representing the author of a quote. 
+            </summary>
+        </member>
+    </members>
+</doc>
