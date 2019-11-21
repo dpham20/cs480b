@@ -16,10 +16,12 @@ namespace quotable.console
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter a valid number/integer.");
             RandomQuoteProvider simpleRandomQuoteObject = new SimpleRandomQuoteProvider();
             var userInput = new int(); //holds user input as an int
 
-            if(int.TryParse(Console.ReadLine(), out userInput)){
+            if (int.TryParse(Console.ReadLine(), out userInput))
+            {
                 simpleRandomQuoteObject.returnQ(userInput);
             }
             else
@@ -27,6 +29,7 @@ namespace quotable.console
                 Console.Error.WriteLine("Please enter a valid number/integer");
             }
             Console.ReadKey();
+
         }
     }
 }

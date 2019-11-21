@@ -25,3 +25,11 @@ H:\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.Assembly
 H:\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.dll
 H:\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.pdb
 H:\cs480b\quotable\quotable.core\bin\Debug\netstandard2.0\quotable.core.xml
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.csprojAssemblyReference.cache
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.AssemblyInfoInputs.cache
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.AssemblyInfo.cs
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.dll
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\obj\Debug\netstandard2.0\quotable.core.pdb
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\bin\Debug\netstandard2.0\quotable.core.deps.json
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\bin\Debug\netstandard2.0\quotable.core.dll
+C:\Users\Danny\Documents\cs480b\quotable\quotable.core\bin\Debug\netstandard2.0\quotable.core.pdb

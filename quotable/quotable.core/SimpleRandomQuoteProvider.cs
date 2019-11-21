@@ -10,10 +10,10 @@ namespace quotable.core{
         /// A hardcoded array of Quote objects.
         /// </summary>
         public Quote[] quoteArr = new Quote[]{
-                new Quote("0", "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.", "Marilyn Monroe"),
-                new Quote("1", "Very Cool, Kanye", "Trump"),
-                new Quote("2", "In three words I can sum up everything I've learned about life: it goes on.", "Robert Frost"),
-                new Quote("3", "I Like Turtles.", "Turtle Kid")
+                //new Quote("0", "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best."),
+                //new Quote("1", "Very Cool, Kanye"),
+                //new Quote("2", "In three words I can sum up everything I've learned about life: it goes on."),
+                //new Quote("3", "I Like Turtles.")
          };
         /// <summary>
         /// Takes in numOfQuotes and shoots back as many strings as equats to numOfQuotes value.

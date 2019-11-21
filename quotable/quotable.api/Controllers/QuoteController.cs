@@ -1,17 +1,17 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using quotable.core;
-using quotable.api.Controllers;
-using quotable.api.Models;
+using Microsoft.AspNetCore.Mvc;
+using Quote = quotable.api.Models.Quote;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace quotable.api.Controllers
 {
+
     /// <summary>
     /// Controller class to handle resources for Quote
     /// </summary>
@@ -19,14 +19,15 @@ namespace quotable.api.Controllers
     [ApiController]
     public class QuoteController : Controller
     {
-        private RandomQuoteProvider Provider { get; }
+        private readonly QuoteContext _context;
+        //private RandomQuoteProvider Provider { get; }
         /// <summary>
         /// Sets a RandomQuoteProvider object "Provider"
         /// </summary>
         /// <param name="provider"></param>
-        public QuoteController(RandomQuoteProvider provider)
+        public QuoteController(QuoteContext context)
         {
-            Provider = provider;
+            _context = context;
         }
 
         // GET: /Quote/
@@ -46,7 +47,7 @@ namespace quotable.api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "/Quote/(number) for specific quote.", "/Quote/GetAll for all quotes." };
+            return new string[] { "/Quote/(number) for specific quote.", "/Quote/GetAll for all quotes.", "/Quote/GetRandomQuote for a random quote (not versioned for this assignment)." };
         }
 
         /// <summary>
@@ -59,9 +60,15 @@ namespace quotable.api.Controllers
         [HttpGet("{id}")]
         public ActionResult<Quote> GetQuoteById(int id)
         {
-            var data = new Quote("","","");
-            data = Provider.returnQuoteById(id);
-            return data;
+            var quote = _context.Quotes.SingleOrDefault(d => d.id == id.ToString());
+            if (quote == null)
+            {
+                return NotFound();
+            }
+            return new Quote()
+            {
+                quote = quote.quote
+            };
         }
 
         /// <summary>
@@ -70,10 +77,13 @@ namespace quotable.api.Controllers
         /// <returns></returns>
         [Route("GetAllQuotes")]
         [HttpGet]
-        public ActionResult<Quote[]> GetAllQuotes()
+        public IEnumerable<Quote> GetAllQuotes()
         {
-           IEnumerable<Quote> data =  Provider.returnQ(100);
-           return data.Cast<Quote>().ToArray();
+            return from quote in _context.Quotes
+                   select new Quote()
+                   {
+                       quote = quote.quote
+                   };
         }
 
         /// <summary>
@@ -84,11 +94,19 @@ namespace quotable.api.Controllers
         [HttpGet]
         public ActionResult<Quote> GetRandomQuote()
         {
-            var data = new Quote("", "", "");
             Random rnd = new Random();
-            var id = rnd.Next(0, 4);
-            data = Provider.returnQuoteById(id);
-            return data;
+            int id = rnd.Next(1, 5);
+           
+            var data = _context.Quotes.SingleOrDefault(d => d.id == id.ToString());
+
+            if (data == null)
+            {
+                return NotFound();
+            }
+            return new Quote()
+            {
+                quote = data.quote
+            };
         }
     }
 }
